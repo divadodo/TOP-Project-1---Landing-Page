@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 20;
+    
+}
+
+.header .logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header ul{
+    list-style-type: none;
+    
+}
+
+.header ul li{
+    display: inline;
+}
+
