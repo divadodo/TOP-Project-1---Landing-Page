@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-around;
     padding: 20;
+    background-color: #1f2937;
+    font-family: roboto;
+    color: white;
     
 }
 
@@ -11,12 +14,21 @@
     
 }
 
+.header a{
+    text-decoration: none;
+    color: white;
+}
+
 .header ul{
+    display: flex;
     list-style-type: none;
+    gap: 15px;
+    
     
 }
 
 .header ul li{
     display: inline;
+    color: white;
 }
 
