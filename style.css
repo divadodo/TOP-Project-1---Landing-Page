@@ -38,6 +38,12 @@
 }
 
 
+
+
+
+
+
+
 .banner{
     background-color: #1f2937;
     padding-top: 80px;
@@ -82,3 +88,47 @@
     max-width: 50%;
     
 }
+
+
+
+
+
+
+
+.infoblock{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    max-width: 1200px;
+
+}
+
+.infoblock .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.infoblock h2{
+    display: flex;
+    justify-content: center;
+}
+
+.infoblock .pic img{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+.infoblock .pic{
+    display: flex;
+    max-width: 150px;
+    text-align: center;
+    flex-direction: column;
+}
+
