@@ -132,3 +132,28 @@
     flex-direction: column;
 }
 
+
+
+
+
+.quote{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .container{
+    display: flex;
+    
+    max-width: 1200px;
+    padding: 50px;
+    
+
+
+}
+
+.quote .container p{
+    text-align: right;
+}
+
