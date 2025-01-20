@@ -175,16 +175,30 @@
 .signup .container{
     background-color: blue;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     max-width: 1200;
     padding: 15px;
     width: 100%;
 }
 
 .signup .container .text{
-    padding-left: 50px;
+    
 }
 
 .signup .container button{
-    margin-right: 50px;
+    
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 20px;
+    color: white;
 }
