@@ -1,11 +1,16 @@
-.header {
-    display: flex;
-    justify-content: space-around;
-    padding: 20;
+.header{
     background-color: #1f2937;
     font-family: roboto;
     color: white;
-    
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20;
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 .header .logo{
@@ -32,3 +37,48 @@
     color: white;
 }
 
+
+.banner{
+    background-color: #1f2937;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.banner .container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner .text{
+    
+    
+    max-width: 50%;  
+    
+}
+
+.banner .text h1{
+    
+    margin-bottom: 0px;
+}
+
+.banner .text p{
+    margin-top: 0px;
+    
+}
+
+.banner button{
+
+}
+
+.imgblock{
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    max-width: 50%;
+    
+}
