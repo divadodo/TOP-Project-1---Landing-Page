@@ -46,7 +46,8 @@
 
 
 .banner{
-    background-color: #1f2937;
+    background-color: #1F2937;
+    font-family: Roboto;
     padding-top: 80px;
     padding-bottom: 80px;
     
@@ -68,11 +69,15 @@
 }
 
 .banner .text h1{
-    
+    color: #F9FaF8;
+    font-size: 48px;
+    font-weight: 900;
     margin-bottom: 0px;
 }
 
 .banner .text p{
+    font-size: 18px;
+    color: #E5E7EB;
     margin-top: 0px;
     
 }
