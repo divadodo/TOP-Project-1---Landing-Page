@@ -96,8 +96,6 @@ body{
     border-radius: 5px;
     border: 1px #3882f6;
     width: 100px;
-
-
 }
 
 .imgblock{
@@ -143,9 +141,10 @@ body{
 }
 
 .infoblock .pic img{
-    border: 1px solid black;
+    border: 3px solid #3882f6;
     height: 150px;
     width: 150px;
+    border-radius: 10px;
 }
 
 .infoblock .pic{
