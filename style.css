@@ -1,5 +1,5 @@
 body{
-    font-family: Roboto;
+    font-family: roboto;
 }
 
 
@@ -89,6 +89,14 @@ body{
 }
 
 .banner button{
+    padding: 10px;
+    color: #E5E7EB;
+    background-color: #3882f6;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px #3882f6;
+    width: 100px;
+
 
 }
 
